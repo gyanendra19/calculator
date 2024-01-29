@@ -1,12 +1,12 @@
 # Basic Calculator made using React
 
-This is a basic Calculator made using React
+This is a basic Calculator made using React 🧮
 
 FEATURES\
-Performs basic Arithmetic operations
+Performs basic Arithmetic operations ➕ ➖ ✖️ ➗
 
 COMPONENTS\
-There is one main component CalcBody\ 
+There is one main component CalcBody \ 
 -It performs all functionalities of the calculator\
 -Also handles the UI
 
@@ -19,6 +19,11 @@ EVENT HANDLERS\
 
 STATE MANAGEMENT\
 -Uses useState hook to change the state of the page whenever input or result is changed
+
+APP IS HOSTED ON VERCEL\
+LINK ⬇️
+https://calculator-mocha-six-85.vercel.app/
+
 
 
 
