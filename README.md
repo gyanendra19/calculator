@@ -1,15 +1,25 @@
 # Basic Calculator made using React
 
+This is a basic Calculator made using React
+
+FEATURES
+Performs basic Arithmetic operations
+
+COMPONENTS 
+There is one main component CalcBody 
+-It performs all functionalities of the calculator
+-Also handles the UI
+
+EVENT HANDLERS
+-changeSignInput: Changes and stores the sign/operator in the input
+-changeInput: Changes and Stores numbers in the input
+-clearInput: clears the last input
+-clearResult: Clears all of result and input section
+-calcResult: Calculates the result and stores it in result
+
+STATE MANAGEMENT
+-Uses useState hook to change the state of the page whenever input or result is changed
 
 
 
 
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

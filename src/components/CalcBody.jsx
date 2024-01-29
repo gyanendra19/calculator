@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 
 function CalcBody() {
@@ -59,7 +59,7 @@ function CalcBody() {
 
 
     return (
-        <div className="m-auto w-3/12 h-3/4 max-sm:w-11/12 max-sm:m-1">
+        <div className="m-auto w-3/12 h-3/4 max-sm:w-11/12 max-sm:m-2 max-sm:h-2/3 max-sm:bg-black/90">
             <div className="w-full h-20 bg-pink-500">
                 <div className="text-black/70 w-11/12 text-right pt-8 pr-3 ml-auto text-3xl">{result}</div>
             </div>
